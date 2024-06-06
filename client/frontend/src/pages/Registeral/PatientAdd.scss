@@ -1,0 +1,52 @@
+.data {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.724);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .mo {
+        padding: 50px;
+        border-radius: 10px;
+        background-color: #abb0b1;
+        position: relative;
+
+        h1 {
+            margin-bottom: 40px;
+            font-size: 24px;
+            color: #df1919;
+            font-weight: bold;
+        }
+
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            color: white;
+            font-size: 20px;
+        }
+
+        .item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .itemTitle {
+                font-size: 18px;
+                color: #fff;
+                margin-right: 10px;
+            }
+
+            .itemValue {
+                font-size: 18px;
+                color: #fff;
+            }
+        }
+    }
+}

@@ -162,7 +162,7 @@ export default function Register() {
           <Form.Label>Phone Number</Form.Label>
           <Form.Control
             type="tel"
-            placeholder="Enter phone number"
+            placeholder="+251934397654"
             value={data.phoneNumber}
             onChange={(e) => setData({ ...data, phoneNumber: e.target.value })}
           />
